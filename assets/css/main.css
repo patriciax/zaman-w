@@ -327,7 +327,7 @@ section{
 		align-items: center;
 		flex-direction: column;
 		position: relative;
-		/*overflow: hidden;*/
+		overflow: hidden;
 	}
 	.custom-control-label::before {
 		
