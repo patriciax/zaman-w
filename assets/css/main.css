@@ -104,6 +104,9 @@ section {
     width: 50%;
     height: auto;
 }
+.banner_xs{
+	display: none;
+}
 .main-banner_text{
 	position: absolute;
     top: 67%;

@@ -1,7 +1,7 @@
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
-    top: 50px;
+    top: 71px;
     bottom: 0;
     left: 100%;
     width: 100%;
@@ -9,7 +9,7 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #fff;
+    background-color: #000;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
     transition-property: left, visibility;
@@ -44,6 +44,15 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .main-brand {
+    width: 100%;
+}
+  .banner_lg, .main-banner_text,.logo-banner {
+    display: none;
+  }
+  .banner_xs{
+    display: initial;
+  }
   .main-detail{
     margin-bottom: 50px;
   }
@@ -177,6 +186,6 @@
     display: inherit;
   }
   .navbar-brand img {
-    width: 20%;
+    width: 40%;
   }
 }
