@@ -68,7 +68,9 @@ section {
 	padding-right: 1.5rem !important;
 	color: #fff;
 }
-
+.main-service_include--grid__five--fotos {
+	grid-template-columns: 1fr 1fr 1fr!important;
+  }
 .main-brand {
 	width: 40%;
 }
@@ -266,7 +268,11 @@ section {
 }
 
 .main-servicios_info span {
-	font-weight: normal;
+
+}
+
+.p-150{
+	padding-left: 150px;
 }
 
 .main-servicios:nth-child(2) {
@@ -632,7 +638,7 @@ section {
 .main-detail_flex-reverse .background--reverse {
 	transform: skewY(-5deg);
 	margin-left: -10px;
-	background: #da5db8;
+	background: #00c2df;
 }
 
 .main-detail_flex-reverse .main-servicio_img--two img {
