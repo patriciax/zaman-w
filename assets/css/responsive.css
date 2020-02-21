@@ -44,6 +44,17 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .main-footer__content img {
+    width: 90%;
+}
+  .main-banner_title p {
+   
+    font-size: 2rem;
+  
+}
+  .mb-50{
+    margin-bottom: 0px;
+  }
   .pieza {
  
     top: 71%;
