@@ -133,9 +133,17 @@ section {
 	width: 50%;
 }
 
+.mask-service{
+	position: absolute;
+    width: 100%;
+    background: #0000001f;
+    height: 450px;
+    top: 0;
+}
+
 .main-servicio_img img {
 	width: 100%;
-	height: 350px;
+	height: 480px;
 	object-fit: cover;
 }
 
@@ -148,7 +156,7 @@ section {
 }
 
 .background {
-	background: #00c2df;
+	background: transparent;
 	position: absolute;
 	margin-top: -15px;
 	margin-left: -10px;
@@ -168,7 +176,7 @@ section {
 
 
 .background--reverse {
-	background: #00c2df;
+	background: transparent;
 	margin-left: 10px;
 }
 
@@ -349,6 +357,33 @@ section {
 	z-index: -1;
 	
 }
+
+
+.main-detail-text span{
+	font-weight: 100!important;
+}
+.main-detail-text{
+	font-size: 2rem;
+    font-weight: bold;
+	color: #000;
+	text-align: end;
+}
+.main-detail-text span {
+  
+    border-bottom: 5px solid #ff00ff!important;
+}
+.main-detail-text-v span{
+border-bottom: 5px solid #00c2df!important;	
+}
+
+.main-detail_description  {
+ 
+    text-align: end;
+}
+
+
+
+
 .main-contacto_content-totem img {
 
 	object-position: 30%;
@@ -610,7 +645,7 @@ section {
 }
 
 .background-slider {
-	background: #e862c3;
+	background: transparent;
 	position: absolute;
 	margin-top: 15px;
 	margin-left: -10px;
@@ -664,7 +699,7 @@ section {
 }
 
 .background-slider-reverse .background-slider {
-	background: #00c2df;
+	background: transparent;
 
 }
 
@@ -738,9 +773,11 @@ section {
 }
 .main-service_include--grid__five .main-fuction_item img {
 	width: 150px;
-	filter: brightness(0);
+    filter: brightness(1);
 }
-
+.main-detail_description-start {
+    text-align: start;
+}
 .main-fuction_item-gray  p {
    
  
