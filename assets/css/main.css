@@ -74,7 +74,7 @@ section {
 .main-brand {
 	width: 40%;
 }
-.main-iconos__content{
+.main-iconos__content,.main-funciona__content{
 	display: none;
 }
 

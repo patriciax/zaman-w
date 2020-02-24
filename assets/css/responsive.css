@@ -52,10 +52,10 @@
     display: flex!important;
 
   }
-  .main-service_include--grid {
+  .main-service_include--grid , .main-fuction_grid{
     display: none;
   }
-  .main-iconos__content{
+  .main-iconos__content, .main-funciona__content{
     display: initial;
   }
   .heading__static{
