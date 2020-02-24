@@ -44,6 +44,17 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .main-fuction_item {
+    
+    display: flex!important;
+
+  }
+  .main-service_include--grid {
+    display: none;
+  }
+  .main-iconos__content{
+    display: initial;
+  }
   .heading__static{
     font-size: 21px;
   }

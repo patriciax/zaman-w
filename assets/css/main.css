@@ -74,6 +74,9 @@ section {
 .main-brand {
 	width: 40%;
 }
+.main-iconos__content{
+	display: none;
+}
 
 /* .link-color{
 	color: #00c2df!important;
