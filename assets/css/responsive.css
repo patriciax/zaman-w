@@ -44,6 +44,10 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+
+  .main-funciona__content, .main-iconos__content{
+    display: flex!important;
+  }
   .cotizaicion p:nth-child(2){
     margin-top: -20px;
   }

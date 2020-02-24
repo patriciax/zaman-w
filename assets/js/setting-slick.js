@@ -107,7 +107,7 @@ $('.main-iconos__content').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-  dots:false,
+  dots:true,
   arrows: false,
   responsive: [{
     breakpoint: 1200,
@@ -143,7 +143,7 @@ $('.main-funciona__content').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-  dots:false,
+  dots:true,
   arrows: false,
   responsive: [{
     breakpoint: 1200,
