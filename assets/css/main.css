@@ -406,6 +406,52 @@ section {
 		border: 2px solid #00c2dfad;
 
 	}
+	.iconos_productoras{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		position: absolute;
+		top: 50%;
+	}
+	.text-productora{
+		width: 65%;
+	}
+	.mask-service-productora {
+		position: absolute;
+		width: 100%;
+		background: #000000ad;
+		height: 520px;
+		top: 0;
+	}
+	.iconos_productoras p {
+		position: initial!important;
+		font-size: 1rem!important;
+		color: #fff!important;
+	}
+	.iconos_productoras img{
+		width: 120px;
+	}
+	.main-banner_title-productora p {
+		
+		top: 20%!important;
+		margin: 0;
+
+	}
+	.iconos_productoras_img{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.detail-service-productora img {
+
+		height: 520px!important;
+
+	}
+	.pieza-productora {
+
+		top: 25%!important;
+
+	}
 
 	.center {
 		display: flex;

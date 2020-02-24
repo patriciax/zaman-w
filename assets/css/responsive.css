@@ -44,6 +44,21 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .mask-service-productora {
+
+   
+    height: 850px;
+    
+  }
+  .detail-service-productora img {
+    height: 850px!important;
+  }
+  .iconos_productoras {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 40%;
+  }
   .navbar-nav .nav-link {
     padding-right: 1.5rem !important;
     color: #fff!important;
