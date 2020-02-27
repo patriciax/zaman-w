@@ -100,9 +100,7 @@
     width: 90%;
   }
   .main-banner_title p {
-
-    font-size: 2rem;
-
+    font-size: 2.5rem
   }
   .mb-50{
     margin-bottom: 0px;
@@ -276,4 +274,8 @@
   .navbar-brand img {
     width: 40%;
   }
+  .text-libro{
+    display: none;
+  }
 }
+
