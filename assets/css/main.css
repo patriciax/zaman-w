@@ -944,3 +944,8 @@ section {
     height: 14px;
     
 }
+
+main-footer__redes   .fa-facebook-f:before, .fa-facebook:before {
+  
+    margin-top: 4px;
+}
