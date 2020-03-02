@@ -372,10 +372,7 @@
     width: 100%;
   }
 
-  .banner_lg,
-    {
-    display: none;
-  }
+
 
   .banner_xs {
     display: initial;
@@ -388,7 +385,7 @@
   .banner_lg {
     height: 100vh;
     width: 100%;
-    display: none;
+    margin-bottom: 50px;
   }
 
   .main-detail_flex .background--reverse {
