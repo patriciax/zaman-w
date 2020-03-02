@@ -62,7 +62,8 @@ $('.main-fotos__content').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
-      autoplaySpeed: 1000
+      autoplaySpeed: 1000,
+      dots:true,
     }
   }
   ]
