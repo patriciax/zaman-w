@@ -61,7 +61,7 @@ $('.main-fotos__content').slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-
+      arrows: false,
       autoplaySpeed: 1000
     }
   }
@@ -95,7 +95,7 @@ $('.main-productoras__content').slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-
+      arrows: false,
       autoplaySpeed: 1000
     }
   }
@@ -130,7 +130,7 @@ $('.main-iconos__content').slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows:true,
+      arrows: false,
       autoplaySpeed: 1000
     }
   }
@@ -166,7 +166,7 @@ $('.main-funciona__content').slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows:true,
+      arrows: false,
       autoplaySpeed: 1000
     }
   }
