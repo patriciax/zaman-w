@@ -214,6 +214,7 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+
   .mask-service {
  
     height: auto;
@@ -337,6 +338,7 @@
 
   .detail-service-productora img {
     height: 850px !important;
+    object-fit: cover;
   }
 
   .iconos_productoras {
