@@ -923,3 +923,8 @@ section {
 	font-size: 30px;
 	margin-top: 10px;
 }
+.main-contacto_content .row{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
