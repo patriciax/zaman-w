@@ -130,7 +130,7 @@ $('.main-iconos__content').slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-
+      arrows:true,
       autoplaySpeed: 1000
     }
   }
@@ -166,7 +166,7 @@ $('.main-funciona__content').slick({
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
-
+      arrows:true,
       autoplaySpeed: 1000
     }
   }
