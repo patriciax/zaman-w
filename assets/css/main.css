@@ -931,3 +931,16 @@ section {
     display: flex;
     justify-content: center;
 }
+
+.slick-dots li button {
+ 
+    height: 14px;
+    width: 14px;
+
+}
+.slick-dots li button:before {
+ 
+    width: 14px;
+    height: 14px;
+    
+}
