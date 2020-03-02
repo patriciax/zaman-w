@@ -249,7 +249,7 @@
 
   .main-detail_content p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .main-detail_content p:nth-child(2) {
@@ -417,7 +417,7 @@
   .mask p {
 
     font-size: 1.5rem;
-    margin-top: 50px;
+   
   }
 
   .main-footer__redes {
