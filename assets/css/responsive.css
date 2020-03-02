@@ -30,50 +30,123 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+  .fa-navicon:before,
+  .fa-reorder:before,
+  .fa-bars:before {
+
+    color: #fff;
+  }
+
+  .navbar-expand-md .navbar-toggler {
+    display: initial;
+  }
+
+  .main-fuction_item-gray img {
+    width: 25%;
+  }
+
+  .slick-initialized .slick-slide {
+    display: block;
+    text-align: center;
+    display: flex;
+  }
+
+  .main-service_include {
+
+    height: auto;
+
+  }
+
+  .main-iconos__content {
+    display: initial;
+  }
+
+  .main-service_include--grid__five {
+
+    display: none;
+  }
+
   .mb-50 {
     margin-bottom: 0;
-}
+  }
+
   .main-fuction_item p {
     font-size: 1.1rem;
     text-align: center;
     line-height: 1.4;
     padding: 0;
     color: #545454 !important;
-}
+  }
+
   .main-detail_subtitle {
     font-size: 1.1rem !important;
-}
+  }
+
   .main-detail_content p {
-  
+
     font-size: 2rem;
-}
+  }
+
   .main-detail_content {
     /* width: 50%; */
     padding: 0;
-}
+  }
 
   .main-servicio_body:hover .background-home {
     transform: none;
   }
+
   .background-home {
-   
+
     height: 250px;
-    
-}
+
+  }
+
   .main-servicio_img img {
 
-    height: auto!important;
-    object-fit: contain!important;
+    height: auto !important;
+    object-fit: contain !important;
 
-}
-  .main-banner_text{
+  }
+
+  .main-banner_text {
     display: none;
   }
-  .logo-md{
-		display: initial;
-	}
+
+  .logo-md {
+    display: initial;
+  }
+
+  .offcanvas-collapse {
+
+    top: 15%;
+
+  }
+
+  .navbar-nav {
+
+    display: inline-block;
+
+  }
+
+  .ml-auto,
+  .mx-auto {
+    margin-left: initial !important;
+  }
+
+  .navbar-expand-md .navbar-nav {
+
+    height: 100%;
+  }
+
   .navbar-brand img {
-    width: 60%;
+    width: 30% !important;
+  }
+
+  .main-brand {
+    width: 100%;
+    display: flex;
   }
 
   .main-contacto strong::before {
@@ -86,16 +159,19 @@
     font-size: 2rem;
 
   }
+
   .navbar-brand img {
     width: 60%;
   }
+
   .navbar-brand img {
-   
+
 
     width: 60%;
   }
+
   .mask p {
-  
+
 
     font-size: 2rem;
   }
@@ -138,9 +214,16 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+
+  .mb-5,
+  .my-5 {
+    margin-bottom: 0rem !important;
+  }
+
   .main-servicio_body:hover .background-home {
     transform: none;
   }
+
   .background-home {
 
     height: 200px;
@@ -165,7 +248,7 @@
   }
 
   .main-detail_content p {
-
+    text-align: center;
     font-size: 2rem;
   }
 
@@ -469,67 +552,81 @@
     width: 40%;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px){
-  .heading__static{
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heading__static {
     font-size: 2rem;
   }
+
   .main-banner_text {
     top: 55%;
-}
-.main-servicios_info p {
+  }
 
-  font-size: 2.5rem;
-}
-.main-clients__content .slick-dots {
-  bottom: -30px;
-}
-.main-servicio_img img {
+  .main-servicios_info p {
 
-  height: auto;
-  object-fit: contain;
+    font-size: 2.5rem;
+  }
 
-}
-.background-home {
+  .main-clients__content .slick-dots {
+    bottom: -30px;
+  }
 
-  height: 330px;
- 
-}
-.mask p {
-  color: #fff;
-  font-size: 2.5rem;
-}
-.main-servicio_body:hover .background-home {
-  transform: none;
-}
+  .main-servicio_img img {
+
+    height: auto;
+    object-fit: contain;
+
+  }
+
+  .background-home {
+
+    height: 330px;
+
+  }
+
+  .mask p {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  .main-servicio_body:hover .background-home {
+    transform: none;
+  }
 }
 
 @media (width: 1280px) and (height: 1024px) {
- .heading__static{
-   font-size: 2rem;
- }
- .main-banner_text {
-  top: 54%;
-  right: 36%;
-}
-.navbar-brand img {
-  width: 40%;
-}
-.main-contacto_content {
+  .heading__static {
+    font-size: 2rem;
+  }
 
-  padding: 50px;
-}
-.main-servicio_img img {
+  .main-banner_text {
+    top: 54%;
+    right: 36%;
+  }
 
-  height: auto;
-  object-fit: contain;
-  
-}
-.background-home {
+  .navbar-brand img {
+    width: 40%;
+  }
 
-  height: 390px;
- 
-}
-.main-servicio_body:hover .background-home {
-  transform: none;
-}
+  .main-contacto_content {
+
+    padding: 50px;
+  }
+
+  .main-servicio_img img {
+
+    height: auto;
+    object-fit: contain;
+
+  }
+
+  .background-home {
+
+    height: 390px;
+
+  }
+
+  .main-servicio_body:hover .background-home {
+    transform: none;
+  }
 }

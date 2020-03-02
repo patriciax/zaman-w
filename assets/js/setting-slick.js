@@ -107,7 +107,7 @@ $('.main-iconos__content').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-  dots:true,
+  dots:false,
   arrows: false,
   responsive: [{
     breakpoint: 1200,
