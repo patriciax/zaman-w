@@ -949,7 +949,7 @@ main-footer__redes   .fa-facebook-f:before, .fa-facebook:before {
   
     margin-top: 4px;
 }
-.fa-instagram:before {
+main-footer__redes  .fa-instagram:before {
     content: "\f16d";
     margin-top: 3px;
 }
