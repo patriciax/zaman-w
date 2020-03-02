@@ -371,7 +371,10 @@
   .main-brand {
     width: 100%;
   }
-
+  .logo-banner {
+ 
+    display: none;
+}
 
 
   .banner_xs {
