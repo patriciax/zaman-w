@@ -131,6 +131,7 @@ $('.main-iconos__content').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
+      dots: true,
       autoplaySpeed: 1000
     }
   }

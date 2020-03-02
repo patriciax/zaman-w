@@ -715,6 +715,7 @@ section {
 		width: 90%;
 		box-shadow: 3px 3px 10px #040404ad;
 		height: 210px;
+		object-fit: cover;
 	}
 
 	.main-fotos .slick-initialized .slick-slide {
