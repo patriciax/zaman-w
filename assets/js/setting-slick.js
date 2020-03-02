@@ -1,9 +1,9 @@
 
 $('.main-clients__content').slick({
   infinite: true,
-  slidesToShow: 5,
+  slidesToShow: 4,
   slidesToScroll: 1,
-  dots: true,
+  dots: false,
   arrows: false,
   responsive: [{
     breakpoint: 1200,
@@ -17,7 +17,7 @@ $('.main-clients__content').slick({
   {
     breakpoint: 900,
     settings: {
-      slidesToShow: 1,
+      slidesToShow: 3,
       slidesToScroll: 1
     }
   },
@@ -73,7 +73,7 @@ $('.main-productoras__content').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   dots: true,
-  arrows: false,
+  arrows: true,
   responsive: [{
     breakpoint: 1200,
     settings: {
