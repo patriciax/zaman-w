@@ -30,7 +30,19 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+  
+  .title-branding{
+    font-size: 1.5rem !important;
+  }
+  .subtitle-branding{
+    font-size: 1.5rem !important;
+  }
+  .title-razon{
+    font-size: 1rem !important;
+  }
+  .content-text_medium p{
+    font-size: 1rem !important;
+  }
   .fa-navicon:before,
   .fa-reorder:before,
   .fa-bars:before {
@@ -214,7 +226,15 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
-
+  .content-text_medium{
+    width: 100%;
+  }
+  .content-text_medium p{
+    font-size: 1rem !important;
+  }
+  .ul_productora{
+    text-align: left;
+  }
   .mask-service {
  
     height: auto;
