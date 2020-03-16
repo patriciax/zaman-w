@@ -30,7 +30,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  
+
   .title-branding{
     font-size: 1.5rem !important;
   }
@@ -226,6 +226,21 @@
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  .main-contacto_content:nth-child(2) {
+
+    display: none;
+  }
+  .slick-dots li {
+
+    width: auto;
+
+  }
+  .main-clients__desktop--two{
+    display: none;
+  }
+  .main-clients__content--two, .main-clients__content{
+    display: block;
+  }
   .content-text_medium{
     width: 100%;
   }
@@ -236,31 +251,31 @@
     text-align: left;
   }
   .mask-service {
- 
+
     height: auto;
-  
-}
+
+  }
   .main-banner_img {
- 
+
     margin-top: 50px;
-}
+  }
   .detail-service img {
     width: 100%;
     height: auto;
     object-fit: contain;
-}
+  }
   .slick-dots li button:before {
-  
+
     width: 10px!important;
     height: 10px!important;
-   
-}
+
+  }
   .slick-dots li button {
-   
+
     height: 10px!important;
     width: 10px!important;
- 
-}
+
+  }
   .mb-5,
   .my-5 {
     margin-bottom: 0rem !important;
@@ -419,9 +434,9 @@
     width: 100%;
   }
   .logo-banner {
- 
+
     display: none;
-}
+  }
 
 
   .banner_xs {
@@ -433,7 +448,7 @@
   }
   .logo-md {
     display: initial;
-}
+  }
   .banner_lg {
     height: 100vh;
     width: 100%;
@@ -464,7 +479,7 @@
   .mask p {
 
     font-size: 1.5rem;
-   
+
   }
 
   .main-footer__redes {
